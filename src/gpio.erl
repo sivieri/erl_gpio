@@ -2,7 +2,7 @@
 -export([init/0, setup/0, pin_mode/2, digital_write/2, digital_read/1, analog_write/2]).
 -on_load(init/0).
 
--define(APPNAME, gpio).
+-define(APPNAME, erl_gpio).
 
 init() ->
     case code:priv_dir(?APPNAME) of

@@ -1,4 +1,4 @@
-{application, gpio,
+{application, erl_gpio,
  [{description, "GPIO (using NIFs)"},
   {vsn, "0.1.0"},
   {applications, [kernel, stdlib]}
